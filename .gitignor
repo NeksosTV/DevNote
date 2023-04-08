@@ -1,3 +1,12 @@
-node_modules
+### Exemple user template template
+### Exemple user template
 
-parcel-cache
+# IntelliJ project files
+
+.idea
+*.iml
+out
+gen
+/node_modules
+.dist
+.parcel-cache
