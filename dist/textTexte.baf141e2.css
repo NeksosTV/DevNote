@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  background-image: url("559128.320f1c27.jpg");
+  background-size: cover;
+  font-family: Roboto, sans-serif;
+}
+
+.main-header {
+  height: 50px;
+  background-color: #000;
+}
+
+.main-header button {
+  height: 30px;
+  width: 120px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #323232;
+  border: none;
+  margin: 10px 0 10px 10px;
+}
+
+.main-header button:hover {
+  background-color: #1f1f1f;
+}
+
+.main-header button i {
+  padding-right: 8px;
+}
+
+.follow-me {
+  color: #fff;
+  background-color: #000;
+  padding: 5px 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.all-div {
+  height: 600px;
+}
+
+.columns {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.column:first-child {
+  border-right: 10px solid #000;
+  flex: 2;
+}
+
+.column:last-child {
+  flex: 1;
+}
+
+.CodeMirror {
+  height: 200px !important;
+}
+
+.show-code {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  border: none;
+}
+
+.editror {
+  overflow: hidden;
+}
+
+.html-code, .css-code, .js-code {
+  border-top: 2px solid #1f1f1f;
+}
+
+.html-code p, .css-code p, .js-code p {
+  color: #cacaca;
+  text-transform: uppercase;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #323232;
+  border-top: 3px solid #1f1f1f;
+  padding: 5px 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.html-code p i {
+  color: #e34c26;
+  padding-right: 5px;
+}
+
+.css-code p i {
+  color: #264de4;
+  padding-right: 5px;
+}
+
+.js-code p i {
+  color: #f0db4f;
+  padding-right: 5px;
+}
+
+.CodeMirror {
+  background: #323232 !important;
+}
+
+@media (max-width: 680px) {
+  .main-header {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .main-header button {
+    margin: 10px auto;
+    display: block;
+  }
+
+  .follow-me {
+    text-align: center;
+    display: block;
+  }
+
+  .column:first-child {
+    border-right: none;
+    flex-basis: 100%;
+  }
+
+  .show-code {
+    height: 300px;
+  }
+}
+
+/*# sourceMappingURL=textTexte.baf141e2.css.map */

@@ -1,0 +1,95 @@
+body {
+  font-family: arial;
+}
+
+.wrapperer {
+  width: 800px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.cmd {
+  height: 300px;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 4px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 18px #4b1d3f;
+}
+
+.title-bar {
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  background-color: #242424;
+  font-weight: 600;
+  line-height: 40px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.tool-bar {
+  width: 100%;
+  height: 30px;
+  background-color: #242424;
+  line-height: 30px;
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+}
+
+.tool-bar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.tool-bar ul li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.tool-bar ul li a {
+  color: #fff;
+  padding: 0 6px;
+  text-decoration: none;
+}
+
+.tool-bar ul li a:hover {
+  text-decoration: underline;
+}
+
+.textarea {
+  resize: none;
+  width: 100%;
+  height: calc(100% - 70px);
+  color: #fff;
+  background-color: #4b1d3f;
+  border: none;
+  margin: 0;
+  padding: 12px;
+  font-size: 1.1rem;
+  position: relative;
+  top: 70px;
+}
+
+div.photogauche {
+  float: left;
+  width: 100px;
+  height: 75px;
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=htmlNote.134d2682.css.map */

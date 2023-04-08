@@ -1,0 +1,19 @@
+{
+  "name": "devnote",
+  "version": "1.0.0",
+  "description": "Note for Dev Html css Js etc",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Florian Lamboray",
+  "license": "ISC",
+  "dependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "sass": "^1.61.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
